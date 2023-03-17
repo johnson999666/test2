@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+  }
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body {
+    font-size: 16px; /* This sets the base font size to 16 pixels */
+  }
+  
+  h1 {
+    font-size: 2rem; /* This sets the font size to 2 times the base font size */
+  }
+  
+  p {
+    font-size: 1.2rem; /* This sets the font size to 1.2 times the base font size */
+  }
+  
+  body {
+    
+  background-image: url('bwbackground.jpeg');
+  background-size: cover;
+  background-position: center;
+
+  }
+
+.bio {
+    display: flex;
+    padding: 20px;
+}
+
+#bio {
+    flex: 1;
+    padding: 30px;
+   
+        background-image: url('backgprofile.jpg');
+        background-size: cover; /* Optional, adjusts the size of the background image */
+  
+      
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
