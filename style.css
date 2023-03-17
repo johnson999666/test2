@@ -38,6 +38,8 @@ html, body {
 .bio {
     display: flex;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 #bio {
@@ -46,11 +48,38 @@ html, body {
    
         background-image: url('backgprofile.jpg');
         background-size: cover; /* Optional, adjusts the size of the background image */
-  
+        font-size: 1.7rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
       
 }
 
 .title {
     display: flex;
     justify-content: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.profile-img {
+    width: 150px; /* adjust the size of the image as needed */
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* optional: add a white border */
+    
+  }
+  
+#title {
+    font-size: 2rem; /* This sets the font size to 2 times the base font size */
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
