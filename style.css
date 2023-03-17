@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
     margin: 0;
@@ -55,6 +55,7 @@ html, body {
         justify-content: center;
         display: flex;
         flex-direction: column;
+        font-family: 'Pacifico', cursive;
 
       
 }
@@ -94,4 +95,14 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   }
-  
+
+.js {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  #js {
+    width: 150px; /* adjust the size of the image as needed */
+    height: 150px;
+  }
