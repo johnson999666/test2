@@ -49,11 +49,12 @@ html, body {
    
         background-image: url('backgprofile.jpg');
         background-size: cover; /* Optional, adjusts the size of the background image */
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         text-align: center;
         align-items: center;
         justify-content: center;
         display: flex;
+        flex-direction: column;
 
       
 }
