@@ -141,3 +141,32 @@ h1 {
     
     font-weight: bold;
 }
+
+.python {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#python {
+    width: 150px; /* adjust the size of the image as needed */
+    height: 150px;
+}
+
+.python-def {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+#python-def {
+    background-image: url('backgprofile.jpg');
+    font-size: 1.5rem;
+    font-family: Consolas, monospace;
+    
+    font-weight: bold;
+}
